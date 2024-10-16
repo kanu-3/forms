@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script defer src="./script.js"></script>
+    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="form">
+            <h1 class="title">Sign Up</h1>
+            <div class="underline"></div>
+            <form onsubmit="return func()" action="submitpage.htm">
+                <div class="input">
+                    <div class="inputfield">
+                        <i class="fa-regular fa-user"></i>
+                        <input id="namefield" type="text"placeholder="First Name">
+                    </div>    
+                    <div class="inputfield" >
+                        <i class="fa-regular fa-user"></i>
+                        <input id="namefield2" type="text"placeholder="Last Name">
+                    </div>    
+                    <div class="inputfield" >
+                        <i class="fa-regular fa-envelope"></i>
+                        <input id="email" type="email"placeholder="Email">
+                    </div>
+                    <div class="inputfield" >    
+                        <i class="fa-solid fa-lock"></i>
+                        <input id="password" type="password"placeholder="Password">
+                    </div>
+                    <p>Password Suggestions: <a href="password suggestions.rtf"> Click Here! </a></p>
+                    <div class="inputfield" >   
+                        <i class="fa-solid fa-lock"></i>
+                        <input id="password2" type="password" placeholder="Confirm Password">
+                    </div>
+                    <div class="btno">
+                        <div class="k">
+                        <p>Already have an account?</p>
+                        <a target = "_blank" href="signin.htm">Sign In</a>
+                    </div>
+                        <button type="submit" class="btn">Submit</button>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
